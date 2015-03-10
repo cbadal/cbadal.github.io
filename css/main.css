@@ -1,0 +1,44 @@
+a {
+  color: black; }
+
+body, html {
+  padding-top: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
+  box-sizing: border-box; }
+
+.site-nav {
+  font-size: 4.5em; }
+  .site-nav :hover {
+    color: blue;
+    cursor: pointer; }
+
+#about-page {
+  font-size: 1em; }
+
+#about-page a {
+  text-decoration: underline; }
+
+#about-page a:hover {
+  color: blue;
+  cursor: pointer; }
+
+#contact-page {
+  font-size: 1em; }
+
+#contact-page a {
+  text-decoration: underline; }
+
+#contact-page a:hover {
+  color: blue;
+  cursor: pointer; }
+
+#work-page {
+  font-size: 1em; }
+
+#work-page a {
+  text-decoration: underline; }
+
+#work-page a:hover {
+  color: blue;
+  cursor: pointer; }
