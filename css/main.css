@@ -1,5 +1,5 @@
 a {
-  color: black; }
+  color: #333; }
 
 body, html {
   padding-top: 20px;
@@ -42,3 +42,9 @@ body, html {
 #work-page a:hover {
   color: blue;
   cursor: pointer; }
+
+#work-page img {
+  padding: 2em 4em 1em 0em;
+  width: 16em;
+  height: auto;
+  display: block; }
