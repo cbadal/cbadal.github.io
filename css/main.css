@@ -48,49 +48,49 @@ body, html {
   cursor: pointer; }
 
 img#audi {
-  height: 42px;
+  height: 3em;
   background-image: url(/images/Audi.jpg); }
 
 img#audi:hover {
-  height: 42px;
+  height: 3em;
   background-image: url(/images/Audi-blue.jpg); }
 
 img#chicago {
-  height: 116px;
+  height: 8.286em;
   background-image: url(/images/CAB.jpg); }
 
 img#chicago:hover {
-  height: 116px;
+  height: 8.286em;
   background-image: url(/images/CAB-blue.jpg); }
 
 img#gsapp {
-  height: 46px;
+  height: 3.286em;
   background-image: url(/images/GSAPP.jpg); }
 
 img#gsapp:hover {
-  height: 46px;
+  height: 3.286em;
   background-image: url(/images/GSAPP-blue.jpg); }
 
 img#microsoft {
-  height: 54px;
+  height: 3.857em;
   background-image: url(/images/Microsoft.jpg); }
 
 img#microsoft:hover {
-  height: 54px;
+  height: 3.857em;
   background-image: url(/images/Microsoft-blue.jpg); }
 
 img#newmuseum {
-  height: 95px;
+  height: 6.786em;
   background-image: url(/images/NewMuseum.jpg); }
 
 img#newmuseum:hover {
-  height: 95px;
+  height: 6.786em;
   background-image: url(/images/NewMuseum-blue.jpg); }
 
 img#sunnylands {
-  height: 49px;
+  height: 3.5em;
   background-image: url(/images/Sunnylands.jpg); }
 
 img#sunnylands:hover {
-  height: 49px;
+  height: 3.5em;
   background-image: url(/images/Sunnylands-blue.jpg); }
