@@ -1,10 +1,7 @@
-a {
-  color: #333;
-  text-decoration: none !important; }
-
 body {
   padding-top: 20px;
   padding-left: 17px;
+  padding-bottom: 20px;
   box-sizing: border-box; }
 
 .container-fluid, .container-fluid * {
@@ -12,12 +9,16 @@ body {
 
 @media screen and (max-width: 900px) {
   body {
-    padding: none !important; } }
+    padding-left: none !important;
+    padding-right: none !important; } }
 .site-nav {
   font-size: 4.5em; }
   .site-nav :hover {
     color: blue;
-    cursor: pointer; }
+    cursor: pointer;
+    text-decoration: none !important; }
+  .site-nav a {
+    color: #333; }
 
 #about-page {
   font-size: 1em; }
@@ -100,3 +101,16 @@ img#sunnylands {
 img#sunnylands:hover {
   height: 3.5em;
   background-image: url(/images/Sunnylands-blue.jpg); }
+
+body .row.content a#content {
+  font-size: 1em;
+  color: #333;
+  text-decoration: none; }
+
+#content a {
+  text-decoration: underline;
+  color: #333; }
+
+#content a:hover {
+  color: blue;
+  cursor: pointer; }
