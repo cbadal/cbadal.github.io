@@ -14,9 +14,10 @@ body {
 .site-nav {
   font-size: 4.5em; }
   .site-nav :hover {
-    color: blue;
     cursor: pointer;
-    text-decoration: none !important; }
+    text-decoration: none !important;
+    color: transparent;
+    text-shadow: 0 0 10px #000; }
   .site-nav a {
     color: #333; }
 
@@ -52,55 +53,36 @@ body {
   content: ''; }
 
 #client-logos img:hover {
-  cursor: pointer; }
+  cursor: pointer;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px); }
 
 img#audi {
   height: 3em;
   background-image: url(/images/Audi.jpg); }
 
-img#audi:hover {
-  height: 3em;
-  background-image: url(/images/Audi-blue.jpg); }
-
 img#chicago {
   height: 8.286em;
   background-image: url(/images/CAB.jpg); }
-
-img#chicago:hover {
-  height: 8.286em;
-  background-image: url(/images/CAB-blue.jpg); }
 
 img#gsapp {
   height: 3.286em;
   background-image: url(/images/GSAPP.jpg); }
 
-img#gsapp:hover {
-  height: 3.286em;
-  background-image: url(/images/GSAPP-blue.jpg); }
-
 img#microsoft {
   height: 3.857em;
   background-image: url(/images/Microsoft.jpg); }
-
-img#microsoft:hover {
-  height: 3.857em;
-  background-image: url(/images/Microsoft-blue.jpg); }
 
 img#newmuseum {
   height: 6.786em;
   background-image: url(/images/NewMuseum.jpg); }
 
-img#newmuseum:hover {
-  height: 6.786em;
-  background-image: url(/images/NewMuseum-blue.jpg); }
-
 img#sunnylands {
   height: 3.5em;
   background-image: url(/images/Sunnylands.jpg); }
-
-img#sunnylands:hover {
-  height: 3.5em;
-  background-image: url(/images/Sunnylands-blue.jpg); }
 
 body .row.content a#content {
   font-size: 1em;
@@ -112,5 +94,6 @@ body .row.content a#content {
   color: #333; }
 
 #content a:hover {
-  color: blue;
-  cursor: pointer; }
+  cursor: pointer;
+  color: transparent;
+  text-shadow: 0 0 5px #000; }
