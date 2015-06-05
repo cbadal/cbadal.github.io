@@ -20,7 +20,7 @@ CB = {
 		})
 
 		$('#instagram').click(function() {
-			window.location.href  = 'http://instagram.com/_cbad'
+			window.location.href  = 'http://instagram.com/designmami'
 		})
 
 		$('#tumblr').click(function() {
