@@ -44,7 +44,8 @@ body {
 #work-page {
   font-size: 1em; }
 
-#client-logos img {
+#client-logos img,
+#client-logos div {
   width: 100%;
   display: block;
   background-repeat: no-repeat;
@@ -52,7 +53,8 @@ body {
   margin-bottom: 3em;
   content: ''; }
 
-#client-logos img:hover {
+#client-logos img:hover,
+#client-logos div:hover {
   cursor: pointer;
   filter: blur(5px);
   -webkit-filter: blur(5px);
@@ -60,38 +62,49 @@ body {
   -o-filter: blur(5px);
   -ms-filter: blur(5px); }
 
-img#audi {
+img#audi,
+div#audi {
   height: 3em;
   background-image: url(/images/Audi.jpg); }
 
-img#chicago {
+img#chicago,
+div#chicago {
   height: 8.286em;
   background-image: url(/images/CAB.jpg); }
 
-img#gsapp {
+img#gsapp,
+div#gsapp {
   height: 3.286em;
   background-image: url(/images/GSAPP.jpg); }
 
-img#louisvuitton {
+img#louisvuitton,
+div#louisvuitton {
   height: 2.214em;
   background-image: url(/images/LouisVuitton.jpg); }
 
-img#microsoft {
+img#microsoft,
+div#microsoft {
   height: 3.857em;
   background-image: url(/images/Microsoft.jpg); }
 
-img#newmuseum {
+img#newmuseum,
+div#newmuseum {
   height: 6.786em;
   background-image: url(/images/NewMuseum.jpg); }
 
-img#sunnylands {
+img#sunnylands,
+div#sunnylands {
   height: 3.5em;
   background-image: url(/images/Sunnylands.jpg); }
+
+img {
+  content: ""; }
 
 body .row.content a#content {
   font-size: 1em;
   color: #333;
-  text-decoration: none; }
+  text-decoration: none;
+  border-style: none; }
 
 #content a {
   text-decoration: underline;
