@@ -27,6 +27,10 @@ CB = {
 			window.location.href = 'http://voyeurvoyage.tumblr.com'
 		})
 
+		$('#twitter').click(function() {
+			window.location.href = 'http://twitter.com/designmami'
+		})
+
 		$('#linkedin').click(function() {
 			window.location.href = 'http://www.linkedin.com/in/christinabadal'
 		})

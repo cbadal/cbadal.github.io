@@ -20,6 +20,12 @@ body {
     text-shadow: 0 0 10px #000; }
   .site-nav a {
     color: #333; }
+  .site-nav #twitter-container {
+    position: relative; }
+    .site-nav #twitter-container #new-img {
+      position: absolute;
+      top: 0;
+      left: 0; }
 
 #about-page {
   font-size: 1em; }
