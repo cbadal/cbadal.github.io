@@ -112,6 +112,9 @@ body .row.content a#content {
   text-decoration: none;
   border-style: none; }
 
+img.img-responsive:hover {
+  -webkit-filter: blur(5px) !important; }
+
 #content a {
   text-decoration: underline;
   color: #333; }
