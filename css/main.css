@@ -13,7 +13,7 @@ body {
     padding-right: none !important; } }
 .site-nav {
   font-size: 4.5em; }
-  .site-nav :hover {
+  .site-nav .top-link:hover {
     cursor: pointer;
     text-decoration: none !important;
     color: transparent;
