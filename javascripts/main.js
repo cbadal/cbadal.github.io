@@ -39,7 +39,7 @@ CB = {
 	},
 
 	instagram: function () {
-		$('#content').load('pages/instagram.html')
+		$('#content').load('pages/contact.html')
 		var userFeed = new Instafeed ({
 			get: 'user',
 			userId: '182230830',
@@ -57,17 +57,6 @@ CB = {
 		}
 	});
 
-
-if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {           
-            window.scrollTo(200,100) // first value for left offset, second value for top offset
-}else{
-            $('html,body').animate({
-                scrollTop: 0,
-                scrollLeft: 0
-            }, 800, function(){
-                $('html,body').clearQueue();
-            });
-}
 
 
 
