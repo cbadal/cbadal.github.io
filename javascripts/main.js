@@ -58,15 +58,17 @@ CB = {
 	});
 
 
+if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {           
+            window.scrollTo(200,100) // first value for left offset, second value for top offset
+}else{
+            $('html,body').animate({
+                scrollTop: 0,
+                scrollLeft: 0
+            }, 800, function(){
+                $('html,body').clearQueue();
+            });
+}
 
-
-	$(function(a,b,c) {
-	if(c in b&&b[c]) {
-		var d,e=a.location,f=/^(a|html)$/i;
-		a.addEventListener("click",function(a) {
-			d=a.target;
-			while(!f.test(d.nodeName))d=d.parentNode;
-			"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href) },!1)}})(document,window.navigator,"standalone")
 
 
 
