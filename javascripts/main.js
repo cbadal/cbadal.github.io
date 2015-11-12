@@ -1,4 +1,13 @@
 $(document).ready(function () {
+	var userFeed = new Instafeed ({
+		get: 'user',
+		userId: '182230830',
+		accessToken: '182230830.1677ed0.0329b7b27f3f472fbf07eb14b21e1608',
+		resolution: 'standard_resolution',
+		limit: '20',
+		template: '<a href="{{link}}"><img class="img-responsive" src="{{image}}" style="width:500px"/></a>'
+	});
+	userFeed.run();
 	CB.initialize();
 })
 
