@@ -39,7 +39,7 @@ CB = {
 	},
 
 	instagram: function () {
-		$('#content').load('pages/contact.html')
+		$('#content').load('pages/instagram.html')
 		var userFeed = new Instafeed ({
 			get: 'user',
 			userId: '182230830',
