@@ -110,7 +110,8 @@ body .row.content a#content {
   font-size: 1em;
   color: #333;
   text-decoration: none;
-  border-style: none; }
+  border-style: none;
+  display: visible; }
 
 img.img-responsive:hover {
   -webkit-filter: blur(5px) !important; }
