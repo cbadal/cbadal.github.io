@@ -34,7 +34,12 @@ CB = {
 		})
 
 		$('#twitter').click(function() {
+			if ( $(window).width() > 739) { 
+				$('#content').load('pages/twitter.html')
+			}
+			else {
 			window.location.href = 'http://twitter.com/designmami'
+			}
 		})
 
 		$('#linkedin').click(function() {
@@ -63,9 +68,6 @@ CB = {
 		userFeed.next();
 		}
 	});
-
-
-
 
 
 	}
