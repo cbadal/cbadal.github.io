@@ -51,17 +51,17 @@ body {
 #work-page {
   font-size: 1em; }
 
-#client-logos img,
-#client-logos div {
-  width: 100%;
-  display: block;
-  background-repeat: no-repeat;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  content: ''; }
+#client-logos {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 4.5em !important; }
 
-#client-logos img:hover,
-#client-logos div:hover {
+#client-logos div, #client-logos a {
+  width: 250px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 5px; }
+
+#client-logos a:hover {
   cursor: pointer;
   filter: blur(5px);
   -webkit-filter: blur(5px);
@@ -69,39 +69,32 @@ body {
   -o-filter: blur(5px);
   -ms-filter: blur(5px); }
 
-img#audi,
-div#audi {
-  height: 3em;
+a.audi {
+  height: .666em;
   background-image: url(/images/Audi.jpg); }
 
-img#chicago,
-div#chicago {
-  height: 8.286em;
+a.chicago {
+  height: 1.841em;
   background-image: url(/images/CAB.jpg); }
 
-img#gsapp,
-div#gsapp {
-  height: 3.286em;
+a.gsapp {
+  height: .73em;
   background-image: url(/images/GSAPP.jpg); }
 
-img#louisvuitton,
-div#louisvuitton {
-  height: 2.214em;
+a.louisvuitton {
+  height: .492em;
   background-image: url(/images/LouisVuitton.jpg); }
 
-img#microsoft,
-div#microsoft {
-  height: 3.857em;
+a.microsoft {
+  height: .857em;
   background-image: url(/images/Microsoft.jpg); }
 
-img#newmuseum,
-div#newmuseum {
-  height: 6.786em;
+a.newmuseum {
+  height: 1.507em;
   background-image: url(/images/NewMuseum.jpg); }
 
-img#sunnylands,
-div#sunnylands {
-  height: 3.5em;
+a.sunnylands {
+  height: .777em;
   background-image: url(/images/Sunnylands.jpg); }
 
 img {
