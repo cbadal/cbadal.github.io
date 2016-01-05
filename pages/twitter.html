@@ -1,10 +1,9 @@
-<script>
-  window.twttr = (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0],t = window.twttr || {};if (d.getElementById(id)) return t;js = d.createElement(s);js.id = id;js.src = "https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, "script", "twitter-wjs"));
-</script>
 <span id='twitter-page'>
   <div id='twitter-timeline'></div>
 </span>
-<a class='twitter-timeline' data-widget-id='665975273502973953' href='https://twitter.com/designmami'></a>
 <script>
-  twttr.widgets.load()
+  var Twitter = require('twitter-node-client').Twitter;
+</script>
+<script>
+  var error = function (err, response, body) {console.log('ERROR [%s]', err);};var success = function (data) {console.log('Data [%s]', data);};var Twitter = require('twitter-js-client').Twitter;var config = {"consumerKey": "vcDjCLXcijWPQlVf7SAZy0efe","consumerSecret": "Ub0UKEcanWUzXm3nLMVE1OEJW4chF0jb4Dxff2Q45yQrHXwyw6","accessToken": "4141006582-rpK0COg5cN9CoqC77gZ3n9K9l8KSp2grwh7mChm","accessTokenSecret": "lITfk9XRASuRJjzlH9qMrAP7tJKiV5cLJciPoagfOq5F1","callBackUrl": "XXX"}var twitter = new Twitter(config);twitter.getUserTimeline({ screen_name: 'designmami', count: '30'}, error, success);
 </script>

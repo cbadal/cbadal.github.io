@@ -12,7 +12,8 @@ body {
     padding-left: none !important;
     padding-right: none !important; } }
 .site-nav {
-  font-size: 4.5em; }
+  font-size: 4.5em;
+  font-family: 'EB Garamond', serif; }
   .site-nav .top-link:hover {
     cursor: pointer;
     text-decoration: none !important;
@@ -108,11 +109,15 @@ img {
 
 body .row.content a#content {
   font-size: 1em;
+  font-family: 'Roboto', sans-serif;
   color: #333;
   text-decoration: none;
   border-style: none;
   display: visible;
   margin-left: 0px; }
+
+.top-buffer {
+  margin-top: 10px; }
 
 img.img-responsive:hover {
   -webkit-filter: blur(5px) !important; }
