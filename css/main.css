@@ -69,34 +69,6 @@ body {
   -o-filter: blur(5px);
   -ms-filter: blur(5px); }
 
-a.audi {
-  height: .666em;
-  background-image: url(/images/Audi.jpg); }
-
-a.chicago {
-  height: 1.841em;
-  background-image: url(/images/CAB.jpg); }
-
-a.gsapp {
-  height: .73em;
-  background-image: url(/images/GSAPP.jpg); }
-
-a.louisvuitton {
-  height: .492em;
-  background-image: url(/images/LouisVuitton.jpg); }
-
-a.microsoft {
-  height: .857em;
-  background-image: url(/images/Microsoft.jpg); }
-
-a.newmuseum {
-  height: 1.507em;
-  background-image: url(/images/NewMuseum.jpg); }
-
-a.sunnylands {
-  height: .777em;
-  background-image: url(/images/Sunnylands.jpg); }
-
 img {
   content: ""; }
 
