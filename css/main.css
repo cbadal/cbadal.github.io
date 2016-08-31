@@ -13,7 +13,7 @@ body {
     padding-right: none !important; } }
 .site-nav {
   font-size: 4.5em;
-  font-family: 'Libre Baskerville', serif; }
+  font-family: 'Antic Didone', serif; }
   .site-nav .top-link:hover {
     cursor: pointer;
     text-decoration: none !important;
@@ -46,7 +46,7 @@ body {
   font-size: 1em; }
 
 #client-logos {
-  font-family: 'Libre Baskerville', serif !important;
+  font-family: 'Antic Didone', serif !important;
   font-size: 4.5em !important; }
 
 #client-logos div, #client-logos a {
