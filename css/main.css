@@ -12,7 +12,7 @@ body {
     padding-left: none !important;
     padding-right: none !important; } }
 .site-nav {
-  font-size: 1em;
+  font-size: 4.5em;
   font-family: 'EB Garamond', serif; }
   .site-nav .top-link:hover {
     cursor: pointer;
@@ -47,7 +47,7 @@ body {
 
 #client-logos {
   font-family: 'EB Garamond', serif !important;
-  font-size: 1em !important; }
+  font-size: 4.5em !important; }
 
 #client-logos div, #client-logos a {
   width: 250px;
