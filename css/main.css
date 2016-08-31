@@ -13,7 +13,7 @@ body {
     padding-right: none !important; } }
 .site-nav {
   font-size: 4.5em;
-  font-family: 'Rakkas', serif; }
+  font-family: 'EB Garamond', serif; }
   .site-nav .top-link:hover {
     cursor: pointer;
     text-decoration: none !important;
@@ -29,7 +29,7 @@ body {
       left: 0; }
 
 #about-page {
-  font-size: 1em; }
+  font-size: 4.5em; }
 
 #about-page a {
   text-decoration: underline; }
@@ -52,7 +52,7 @@ body {
   font-size: 1em; }
 
 #client-logos {
-  font-family: 'Rakkas',  serif !important;
+  font-family: 'EB Garamond',  serif !important;
   font-size: 4.5em !important; }
 
 #client-logos div, #client-logos a {
@@ -73,8 +73,8 @@ img {
   content: ""; }
 
 body .row.content a#content {
-  font-size: 1em;
-  font-family: 'Roboto', sans-serif;
+  font-size: 4.5em;
+  font-family: 'Roboto Mono', sans-serif;
   color: #000;
   text-decoration: none;
   border-style: none;
