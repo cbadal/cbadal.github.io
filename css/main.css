@@ -13,7 +13,7 @@ body {
     padding-right: none !important; } }
 .site-nav {
   font-size: 4.5em;
-  font-family: 'Cinzel', serif; }
+  font-family: 'Rakkas', serif; }
   .site-nav .top-link:hover {
     cursor: pointer;
     text-decoration: none !important;
@@ -52,7 +52,7 @@ body {
   font-size: 1em; }
 
 #client-logos {
-  font-family: 'Cinzel',  serif !important;
+  font-family: 'Rakkas',  serif !important;
   font-size: 4.5em !important; }
 
 #client-logos div, #client-logos a {
