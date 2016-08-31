@@ -20,7 +20,7 @@ body {
     color: transparent;
     text-shadow: 0 0 10px #000; }
   .site-nav a {
-    color: #333; }
+    color: #000; }
   .site-nav #twitter-container {
     position: relative; }
     .site-nav #twitter-container #new-img {
@@ -29,7 +29,7 @@ body {
       left: 0; }
 
 #about-page {
-  font-size: 4.5em; }
+  font-size: 1em; }
 
 #about-page a {
   text-decoration: underline; }
