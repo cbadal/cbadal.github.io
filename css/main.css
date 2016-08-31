@@ -75,7 +75,7 @@ img {
 body .row.content a#content {
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
-  color: #333;
+  color: #000;
   text-decoration: none;
   border-style: none;
   display: visible;
@@ -89,7 +89,7 @@ img.img-responsive:hover {
 
 #content a {
   text-decoration: underline;
-  color: #333; }
+  color: #000; }
 
 #content a:hover {
   cursor: pointer;
