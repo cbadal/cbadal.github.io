@@ -74,6 +74,9 @@ body .row.content a#content {
   border-style: none;
   display: visible;
   margin-left: 0px; }
+  @media only screen and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+    body .row.content a#content {
+      font-size: 2em; } }
 
 .top-buffer {
   margin-top: 10px; }
