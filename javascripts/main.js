@@ -20,6 +20,10 @@ CB = {
 			$('#content').load('pages/work.html')
 		})
 
+		$('#writing').click(function() {
+			$('#content').load('pages/writing.html')
+		})
+
 		$('#instagram').click(function() {
 			if ( $(window).width() > 739) { 
 				that.instagram()
