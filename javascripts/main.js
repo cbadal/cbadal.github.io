@@ -11,7 +11,7 @@ CB = {
 		$('#contact').click(function() {
 			$('#content').load('pages/contact.html')
 		})
-		
+
 		$('#about').click(function() {
 			$('#content').load('pages/about.html')
 		})
@@ -24,21 +24,21 @@ CB = {
 			$('#content').load('pages/writing.html')
 		})
 
-		$('#instagram').click(function() {
-			if ( $(window).width() > 739) { 
-				that.instagram()
-			}
-			else {
-				window.location.href  = 'http://instagram.com/designmami';
-			}
-		})
+		//$('#instagram').click(function() {
+			//if ( $(window).width() > 739) {
+				//that.instagram()
+			//}
+			//else {
+				//window.location.href  = 'http://instagram.com/designmami';
+			//}
+		//})
 
-		$('#tumblr').click(function() {
-			window.location.href = 'http://voyeurvoyage.tumblr.com'
-		})
+		//$('#tumblr').click(function() {
+			//window.location.href = 'http://voyeurvoyage.tumblr.com'
+		//})
 
 		$('#twitter').click(function() {
-			//if ( $(window).width() > 739) { 
+			//if ( $(window).width() > 739) {
 			//	$('#content').load('pages/twitter.html')
 			//}
 			//else {
@@ -46,12 +46,16 @@ CB = {
 			//}
 		})
 
-		$('#linkedin').click(function() {
-			window.location.href = 'http://www.linkedin.com/in/christinabadal'
+		$('#arena').click(function() {
+			window.location.href = 'http://are.na/christina-badal'
 		})
+
+		//$('#linkedin').click(function() {
+			//window.location.href = 'http://www.linkedin.com/in/christinabadal'
+		//})
 	},
 
-   
+
 	instagram: function () {
 		$('#content').load('pages/instagram.html')
 		var userFeed = new Instafeed ({
@@ -76,6 +80,3 @@ CB = {
 	}
 
 }
-
-
-
