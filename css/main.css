@@ -1,7 +1,8 @@
 body {
   padding-top: 20px;
-  padding-left: 17px;
+  padding-left: 20px;
   padding-bottom: 20px;
+  padding-right: 20px;
   box-sizing: border-box; }
 
 .container-fluid, .container-fluid * {
@@ -12,8 +13,8 @@ body {
     padding-left: none !important;
     padding-right: none !important; } }
 .site-nav {
-  font-size: 4.5em;
-  font-family: 'EB Garamond', serif; }
+  font-size: 5em;
+  font-family: 'Permanent Marker', cursive; }
   .site-nav .top-link:hover {
     cursor: pointer;
     text-decoration: none !important;
@@ -46,8 +47,8 @@ body {
   font-size: 1em; }
 
 #client-logos {
-  font-family: 'EB Garamond', serif !important;
-  font-size: 4.5em !important; }
+  font-family: 'Roboto Mono', sans-serif !important;
+  font-size: 5em !important; }
 
 #client-logos div, #client-logos a {
   width: 250px;
@@ -77,8 +78,9 @@ img {
   content: ""; }
 
 body .row.content a#content {
-  font-size: 4em;
+  font-size: 2em;
   font-family: 'Roboto Mono', sans-serif;
+  line-height: 1.4;
   color: #000;
   text-decoration: none;
   border-style: none;
