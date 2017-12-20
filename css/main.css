@@ -14,7 +14,7 @@ body {
     padding-right: none !important; } }
 .site-nav {
   font-size: 5em;
-  font-family: 'Permanent Marker', cursive; }
+  font-family: 'Roboto', sans-serif; }
   .site-nav .top-link:hover {
     cursor: pointer;
     text-decoration: none !important;
@@ -47,7 +47,7 @@ body {
   font-size: 1em; }
 
 #client-logos {
-  font-family: 'Roboto Mono', sans-serif !important;
+  font-family: 'Roboto Mono', monospace !important;
   font-size: 5em !important; }
 
 #client-logos div, #client-logos a {
@@ -79,7 +79,7 @@ img {
 
 body .row.content a#content {
   font-size: 2em;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   line-height: 1.4;
   color: #000;
   text-decoration: none;
